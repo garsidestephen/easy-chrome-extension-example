@@ -1,2 +1,2 @@
 # easy-chrome-extension-example
-An easy example of a simple Chrome extension
+An easy example of a simple Chrome extension. Here is an explanation of <a href="https://www.stephengarside.co.uk/blog/easy-example-of-how-to-create-a-chrome-extension/">how to create a simple Chrome extension</a> together with a link to download the <a href="https://chrome.google.com/webstore/detail/sg-digital-launcher/kjnalhdahdaplomlimnffjkggnppagli">SG Digital Chrome Extension Launcher</a>.
