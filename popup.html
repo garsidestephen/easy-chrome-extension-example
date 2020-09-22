@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SG Digital Launcher</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <style>
+        html, body {
+            font-family:'Open Sans', sans-serif;
+            font-size: 14px;
+            margin:0;
+            min-height: 180px;
+            padding:0;
+            width:384px;            
+        }
+
+        .modal__header {
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+
+        .modal__content {
+            padding: 0 22px;
+        }
+
+        .modal__icons {
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+        }
+
+        .modal__icons__link, .modal__icons__link:visited {
+            color:#000;
+            outline:0;
+            text-decoration: none;
+        }
+
+        .modal__header__logo {
+            font-family: 'Menlo', monospace;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            color:#000;
+            padding: 16px;
+        }
+
+        .modal__header__logo__icon {
+            vertical-align: text-bottom;
+            margin-right: 12px;
+            width: 30px;
+        }
+
+        .modal__header__logo__icon__version {
+            color:#444;
+            font-size: 18px;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        .flex{
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+
+        .flex:hover{
+            opacity: 0.4;
+        }
+
+        .flex .fa, .flex .fab{
+            font-size: 32px;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal__header">
+        <h1 class="modal__header__logo">
+            <img src="images/logo_150.png" alt="SG Digital Logo" class="modal__header__logo__icon">SG Digital Launcher<span class="modal__header__logo__icon__version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="modal__content">
+        <p>Easily access SG Digital content</p>
+    </div>
+    <div class="modal__icons">
+<div class="flex-container">
+    <div class="flex">
+        <a href="https://www.stephengarside.co.uk" target="_blank" title="Visit SG Digital Website" class="modal__icons__link">
+            <i class="fa fa-globe"></i>
+        </a>
+    </div>
+    <div class="flex">
+        <a href="https://www.youtube.com/channel/UCjsbYX2B9VLh78SnNvb4FDA" target="_blank" title="Watch SG Digital on Youtube" class="modal__icons__link">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+    <div class="flex">
+        <a href="https://www.facebook.com/stephen.garside.100" target="_blank" title="Visit SG Digital on Facebook" class="modal__icons__link">
+            <i class="fab fa-facebook"></i>
+        </a>
+    </div>
+    <div class="flex">
+        <a href="https://twitter.com/StephenGarside1" target="_blank" title="Visit SG Digital on Twitter" class="modal__icons__link">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+    <div class="flex">
+        <a href="https://g.page/sg-digital-software?gm" target="_blank" title="SG Digital Google My Business" class="modal__icons__link">
+            <i class="fab fa-google"></i>
+        </a>
+    </div>
+    <div class="flex">
+        <a href="https://uk.linkedin.com/in/stephen-garside-6556882a" target="_blank" title="Connect with SG Digital on LinkedIn" class="modal__icons__link">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+    <div class="flex">
+        <a href="http://stackoverflow.com/users/4629440/stephen-garside" target="_blank" title="Visit SG Digital on Stackoverflow" class="modal__icons__link">
+            <i class="fab fa-stack-overflow"></i>
+        </a>
+    </div>
+</div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
